@@ -20,7 +20,7 @@ while True:
 
     output = cv2.add(frame,canvas)
 
-    cv2.imshow("AI Canvas",output)
+    cv2.imshow("Canvas + Webcam",output)
 
     key = cv2.waitKey(1) & 0xFF
 
