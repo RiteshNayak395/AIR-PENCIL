@@ -146,3 +146,7 @@ while True:
 cap.release()
 hands.close()
 cv2.destroyAllWindows()
+
+#------run this in terminal to create virtual environment and activate it(in terminal)
+#py -3.12 -m venv venv
+#.\venv\scripts\activate.ps1
